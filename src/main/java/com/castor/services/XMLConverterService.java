@@ -15,7 +15,7 @@ public interface XMLConverterService {
 	 * configuration file
 	 * 
 	 * @param obj
-	 * @param filePath
+	 * @param outputFilePath
 	 */
 	public void convertFromObjectToXML(Object obj, String outputFilePath);
 	
