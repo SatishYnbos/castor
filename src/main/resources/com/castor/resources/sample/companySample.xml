@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:company xmlns:ns2="http://www.company.com/some.xsd" id="1">
+	<ns2:product>
+		<id>1</id>
+		<name>application</name>
+	</ns2:product>
+	<ns2:employees>
+		<ns2:employee>
+			<id>1</id>
+			<name>Vijay</name>
+			<designation>TL</designation>
+		</ns2:employee>
+		<ns2:employee>
+			<id>2</id>
+			<name>Pavan</name>
+			<designation>TM</designation>
+		</ns2:employee>
+		<ns2:employee>
+			<id>3</id>
+			<name>Venkatesh</name>
+			<designation>TM</designation>
+		</ns2:employee>
+		<ns2:employee>
+			<id>4</id>
+			<name>Satish</name>
+			<designation>TM</designation>
+		</ns2:employee>
+		<ns2:employee>
+			<id>5</id>
+			<name>Chandu</name>
+			<designation>TM</designation>
+		</ns2:employee>
+	</ns2:employees>
+</ns2:company>
