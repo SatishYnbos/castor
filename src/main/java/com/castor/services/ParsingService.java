@@ -9,7 +9,7 @@ import java.io.File;
  * @author satish
  *
  */
-public interface XMLConverterService {
+public interface ParsingService {
 
 	/**
 	 * This method will parse the given Object to XML file by using mapping

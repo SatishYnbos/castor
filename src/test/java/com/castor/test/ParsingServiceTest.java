@@ -13,8 +13,8 @@ import org.w3c.dom.NodeList;
 import com.castor.model.Company;
 import com.castor.services.CompanyService;
 import com.castor.services.CompanyServiceImpl;
-import com.castor.services.XMLConverterService;
-import com.castor.services.XMLConverterServiceImpl;
+import com.castor.services.ParsingService;
+import com.castor.services.ParsingServiceImpl;
 import com.castor.util.ResourceUtil;
 
 import junit.framework.TestCase;
@@ -23,9 +23,9 @@ import junit.framework.TestCase;
  * @author satish
  *
  */
-public class XMLConverterServiceTest extends TestCase {
+public class ParsingServiceTest extends TestCase {
 	CompanyService service = new CompanyServiceImpl();
-	XMLConverterService converterService = new XMLConverterServiceImpl();
+	ParsingService converterService = new ParsingServiceImpl();
 
 	public void testParsing() {
 		/**

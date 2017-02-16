@@ -9,13 +9,12 @@ import java.io.File;
  * @author satish
  *
  */
-public class XMLConverterServiceImpl implements XMLConverterService {
+public class ParsingServiceImpl implements ParsingService {
 
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see
-	 * com.castor.services.XMLConverterService#convertFromObjectToXML(java.lang.
+	 * @see com.castor.services.ParsingService#convertFromObjectToXML(java.lang.
 	 * Object, java.io.File)
 	 */
 	@Override
@@ -27,8 +26,7 @@ public class XMLConverterServiceImpl implements XMLConverterService {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see
-	 * com.castor.services.XMLConverterService#convertFromXMLToObject(java.io.
+	 * @see com.castor.services.ParsingService#convertFromXMLToObject(java.io.
 	 * File)
 	 */
 	@Override
